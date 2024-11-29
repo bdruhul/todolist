@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website title -->
+  <title>To-Do List</title>
+  <!-- Css style link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- CSS style links end -->
+</head>
+
+<body>
+  <!-- To-Do List HTML part start -->
+  <div class="todo_main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="heading">To-Do List</p>
+          <form class="form_control"> <!-- Updated class to match the JS -->
+            <input type="text" name="task" id="taskInput" placeholder="Add new task" aria-label="Add new task">
+            <button type="submit" aria-label="Add Task">
+              <i class="fas fa-plus"></i>
+            </button>
+          </form>
+          <p class="heading_bottom">My Works</p>
+          <ul class="task_list">
+          </ul>
+          <button class="alldeletebtn">
+            Delete All
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- To-Do List HTML part End -->
+  <!-- Popup Design Start -->
+  <div class="popup" id="popupMessage">
+    <div class="popup-overlay"></div>
+    <div class="popup-container">
+      <div class="popup-content">
+        <h2 class="popup-heading">Invalid Input</h2>
+        <p class="popup-message">Please enter a valid task to add it to your to-do list. Empty tasks cannot be added.
+        </p>
+        <button class="popup-close-btn" aria-label="Close Popup">Close</button>
+      </div>
+    </div>
+  </div>
+  <!-- Popup Design End -->
+  <!-- Bootstrap and JS file links -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- Bootstrap and JS file links -->
+</body>
+
+</html>

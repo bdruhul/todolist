@@ -1,0 +1,75 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+
+/* todo list css part start  */
+.todo_main {
+    width: 100%;
+    margin: 30vh auto;
+}
+.form_control {
+    width: 100%;
+
+}
+#taskInput {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.task_items {
+    width: 100%;
+}
+
+/* todo list css part End */
+/* delete all sectin css part start  */
+.alldeletebtn {
+    width: 40%;
+}
+/* delete all sectin css part end */
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+/* todo list css part start  */
+.todo_main {
+    width: 100%;
+    margin: 20vh auto;
+}
+
+.form_control {
+    width: 100%;
+}
+
+#taskInput {
+    width: 100% !important;
+    height: 100% !important;
+}
+.task_items {
+    width: 100%;
+}
+/* todo list css part End */
+/* delete all sectin css part start  */
+.alldeletebtn {
+    width: 30%;
+}
+/* delete all sectin css part end */
+}
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+/* todo list css part start  */
+.todo_main {
+    width: 100%;
+    margin: 20vh auto;
+}
+.form_control {
+    width: 100%;
+}
+#taskInput {
+    width: 100% !important;
+    height: 100% !important;
+}
+.task_items {
+    width: 100%;
+}
+/* todo list css part End */
+/* delete all sectin css part start  */
+.alldeletebtn {
+    width: 30%;
+}
+/* delete all sectin css part end */
+}
